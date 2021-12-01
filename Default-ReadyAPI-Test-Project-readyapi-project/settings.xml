@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project name="Default ReadyAPI Test Project" soapui-version="6.0.0" resourceRoot="" id="61e04082-3ec6-4977-b3af-d6600f20ae9b" abortOnError="false" runType="SEQUENTIAL" activeEnvironment="Default environment" updated="3.10.1" encryptionMode="Not encrypted" compositeProjectFormat="1.3" xmlns:con="http://eviware.com/soapui/config">
+  <con:description>Sends requests to SOAP- and REST-based local virtual services on different ports.</con:description>
+  <con:settings>
+    <con:setting id="IncludeOverview">true</con:setting>
+    <con:setting id="IncludeResults">true</con:setting>
+    <con:setting id="FlowLayout">false</con:setting>
+    <con:setting id="ErrorDetails">true</con:setting>
+    <con:setting id="IncludeCoverage">true</con:setting>
+    <con:setting id="GeneratableJUnitReport@Style">Multiple Pages</con:setting>
+    <con:setting id="GeneratableJUnitReport@Folder">C:\dev\htmlreports</con:setting>
+    <con:setting id="ReportTitle">SoapUI Report</con:setting>
+    <con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerUIAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Settings File Password" value=""/>
+  <con:entry key="Report Format(s)" value="XML"/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="Export JUnit Results" value="true"/>
+  <con:entry key="Export All" value="true"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Slack Channel(s)" value=""/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Test Suite Tags" value=""/>
+  <con:entry key="Select Report Type" value="JUnit-Style report for automation"/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Test Suite" value="&lt;all>"/>
+  <con:entry key="Run in-process" value="false"/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="Print Report" value="true"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Test Case Tags" value=""/>
+  <con:entry key="Export JUnit Results with test properties" value="false"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Test Case" value="&lt;all>"/>
+  <con:entry key="Slack Access Token" value=""/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="TestRunner Path" value="C:\Users\hperumal\AppData\Local\Programs\SmartBear\ReadyAPI-3.10.1\bin"/>
+  <con:entry key="Environment" value="No Environment"/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Root Folder" value="${WORKSPACE}"/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Save Project" value="false"/>
+</xml-fragment>]]></con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:requirements/>
+  <con:properties>
+    <con:property>
+      <con:name>Some Property</con:name>
+      <con:value>with a value</con:value>
+    </con:property>
+  </con:properties>
+  <con:wssContainer>
+    <con:crypto>
+      <con:id>3545cbf5-78a3-4383-b020-004828ebdb87</con:id>
+      <con:source>U:/wso2carbon.jks</con:source>
+      <con:password>laitram</con:password>
+      <con:type>KEYSTORE</con:type>
+    </con:crypto>
+  </con:wssContainer>
+  <con:databaseConnectionContainer/>
+  <con:jmsConnectionContainer/>
+  <con:oAuth2ProfileContainer>
+    <con:oAuth2Profile>
+      <con:name>DynamicsDev</con:name>
+      <con:type>OAuth 2.0</con:type>
+      <con:authorizationURI>https://login.microsoftonline.com/common/oauth2/authorize?resource=https://iloxdev.crm.dynamics.com</con:authorizationURI>
+      <con:accessTokenURI>https://iloxdev.crm.dynamics.com</con:accessTokenURI>
+      <con:redirectURI>https://iloxdeliverydev.crm.dynamics.com/</con:redirectURI>
+      <con:accessToken>eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Imwzc1EtNTBjQ0g0eEJWWkxIVEd3blNSNzY4MCIsImtpZCI6Imwzc1EtNTBjQ0g0eEJWWkxIVEd3blNSNzY4MCJ9.eyJhdWQiOiJodHRwczovL2lsb3hkZXYuY3JtLmR5bmFtaWNzLmNvbSIsImlzcyI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0LzMzNGMyMGE5LTYxNGYtNGVhNC1hMDA3LWIxYzY4MWY1MjA3NS8iLCJpYXQiOjE2MzU1MzM4MzcsIm5iZiI6MTYzNTUzMzgzNywiZXhwIjoxNjM1NTM3NzM3LCJhY3IiOiIxIiwiYWlvIjoiQVVRQXUvOFRBQUFBSThHNDhONGh4alozWHJPQmVtL0NEdEVXemljcWNjdFBmbDRQd3FQQjZCdTZXL0hVZmlHdTNQcnpMWFRHenZ3MGVpZlJNeTV3a3BDSklGUDR2ZndBMUE9PSIsImFtciI6WyJwd2QiLCJ3aWEiLCJtZmEiXSwiYXBwaWQiOiI5ODFmZGNlZC02MTI2LTQ3OTMtOTE3Ny01MmYzOTg0NWRmYzIiLCJhcHBpZGFjciI6IjAiLCJmYW1pbHlfbmFtZSI6IlBlcnVtYWwiLCJnaXZlbl9uYW1lIjoiSGFyaSIsImlwYWRkciI6Ijk4LjE5OC4xNjkuMTc3IiwibmFtZSI6IkhhcmkgUGVydW1hbCIsIm9pZCI6IjU2MTU5ZGRjLWZjNjktNGU5Mi1hNjVkLThiOTk1Zjk5NGNlYSIsIm9ucHJlbV9zaWQiOiJTLTEtNS0yMS0xNzY2NzMzMjcwLTE4MDc2OTE1NjktMTk0NTE0OTc0My0xNDc2NTc2IiwicHVpZCI6IjEwMDMwMDAwOTE1Mzg1MUEiLCJyaCI6IjAuQVVVQXFTQk1NMDlocEU2Z0I3SEdnZlVnZGUzY0g1Z21ZWk5Ia1hkUzg1aEYzOEpGQUdFLiIsInNjcCI6InVzZXJfaW1wZXJzb25hdGlvbiIsInN1YiI6ImN5WDloRW9sN0VoR1BCd0w5eEVnQkw3SnNKM3hzZFdiQjFmR0ZIVlFkNHMiLCJ0aWQiOiIzMzRjMjBhOS02MTRmLTRlYTQtYTAwNy1iMWM2ODFmNTIwNzUiLCJ1bmlxdWVfbmFtZSI6IkhhcmkuUGVydW1hbEBMYWl0cmFtLmNvbSIsInVwbiI6IkhhcmkuUGVydW1hbEBMYWl0cmFtLmNvbSIsInV0aSI6ImY2R3hCUmZBNVVxZTJ0dmFyejNBQVEiLCJ2ZXIiOiIxLjAifQ.DrzyfCQR_6jtt2hTxudFslBs9wyCHGL2xjkZJ4LqUMw-8MHJwJL048Z5foPCytstNLui3zlAIeA7RCHp2a2VbKK1lmSrZUz1VkTTIdbCl6MMJq95JSuKasiRZoDXe-boUJZf4MeEvKKxul9Svr9IvoiDtK7zygRlAypEm4ri4NwuokT1f4126E23M5Zgz-o4GVEPfNRIaql1pt1imp4d2G_gCYf4DmxvwHZq7N30jKWH1P7aOZZ2oEMrx6SoEWKulR8_SWvd7O7RkX3el4J32ZX9fQxu600-uTODANtgzFbAraB1x0dp6EgxfsUOSdboTW_At88xIJqSevUe_nOrBw</con:accessToken>
+      <con:accessTokenPosition>HEADER</con:accessTokenPosition>
+      <con:accessTokenStartingStatus>RETRIEVED_FROM_SERVER</con:accessTokenStartingStatus>
+      <con:accessTokenIssuedTime>1635534137</con:accessTokenIssuedTime>
+      <con:manualAccessTokenExpirationTime/>
+      <con:manualAccessTokenExpirationTimeUnit>SECONDS</con:manualAccessTokenExpirationTimeUnit>
+      <con:clientID>981fdced-6126-4793-9177-52f39845dfc2</con:clientID>
+      <con:clientSecret/>
+      <con:oAuth2Flow>IMPLICIT_GRANT</con:oAuth2Flow>
+      <con:refreshAccessTokenMethod>AUTOMATIC</con:refreshAccessTokenMethod>
+      <con:idToken>eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Imwzc1EtNTBjQ0g0eEJWWkxIVEd3blNSNzY4MCIsImtpZCI6Imwzc1EtNTBjQ0g0eEJWWkxIVEd3blNSNzY4MCJ9.eyJhdWQiOiI5ODFmZGNlZC02MTI2LTQ3OTMtOTE3Ny01MmYzOTg0NWRmYzIiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8zMzRjMjBhOS02MTRmLTRlYTQtYTAwNy1iMWM2ODFmNTIwNzUvIiwiaWF0IjoxNjM1NTMzODg0LCJuYmYiOjE2MzU1MzM4ODQsImV4cCI6MTYzNTUzNzc4NCwiYWlvIjoiQVVRQXUvOFRBQUFBeEYySXV5M0NXbFFJZWptUFhXQ2ErRnNIRkl1cjRQN3poZDFUUlZaTUczMUtiTVZnRlZCbGZvVDVzRkNUZ015MlR2MW95NWRFQXZLRzl3Qnlra0dDTVE9PSIsImFtciI6WyJwd2QiLCJ3aWEiLCJtZmEiXSwiZmFtaWx5X25hbWUiOiJQZXJ1bWFsIiwiZ2l2ZW5fbmFtZSI6IkhhcmkiLCJpcGFkZHIiOiI5OC4xOTguMTY5LjE3NyIsIm5hbWUiOiJIYXJpIFBlcnVtYWwiLCJub25jZSI6IjE2MzU1MzQxNjEyMTFidz09Iiwib2lkIjoiNTYxNTlkZGMtZmM2OS00ZTkyLWE2NWQtOGI5OTVmOTk0Y2VhIiwib25wcmVtX3NpZCI6IlMtMS01LTIxLTE3NjY3MzMyNzAtMTgwNzY5MTU2OS0xOTQ1MTQ5NzQzLTE0NzY1NzYiLCJyaCI6IjAuQVVVQXFTQk1NMDlocEU2Z0I3SEdnZlVnZGUzY0g1Z21ZWk5Ia1hkUzg1aEYzOEpGQUdFLiIsInN1YiI6Ikc3OElLOUFNTTNFS284RGE2RGpmZ3pBdDkwak9Gck51dGZLM1g4N0Vpb1kiLCJ0aWQiOiIzMzRjMjBhOS02MTRmLTRlYTQtYTAwNy1iMWM2ODFmNTIwNzUiLCJ1bmlxdWVfbmFtZSI6IkhhcmkuUGVydW1hbEBMYWl0cmFtLmNvbSIsInVwbiI6IkhhcmkuUGVydW1hbEBMYWl0cmFtLmNvbSIsInV0aSI6Ik5YWlU0WnBpR2ttSVVHeV9MTDIzQVEiLCJ2ZXIiOiIxLjAifQ.oe5JiK-YkF9J-1XWmp5gs94Zz8tApOqAIQvms0oiSxb-Wzv-i8XVP0x-JdIL5Or-JqvkoRIAp8ldrI4LxBygDo39DY11xG4-Udsu_6EEwlB1grTymlJBoG8LVGYsYRpGDcigcyEWq-c-_CO9PLimAP8xB-EsnBwflAAZXB7dhLdH5Fp-RtlXHXCZ_pT91vRhTcUjSbfbFiy4Rj7r0I8qdCOUYEiOiNmNwruOZ6al9ykqJSgrTEnjamvLmT_84-QWQJGyjIE0RelqXryX7NWrh6raffCsIM28k4o2P_8njL0txVi5z-fO88mSTsSihdWj3wYiz-5Aa0cXpe0Pnmp9Nw</con:idToken>
+      <con:idTokenStatus>RETRIEVED_FROM_SERVER</con:idTokenStatus>
+      <con:idTokenStartingStatus>RETRIEVED_FROM_SERVER</con:idTokenStartingStatus>
+      <con:jwtConfiguration/>
+      <con:responseType>id_token</con:responseType>
+    </con:oAuth2Profile>
+  </con:oAuth2ProfileContainer>
+  <con:oAuth1ProfileContainer/>
+  <con:reporting/>
+  <con:beforeRunScript>virtRunner.run("ServiceSoapBinding MockService")
+        virtRunner.run("RESTMockService")</con:beforeRunScript>
+  <con:eventHandlers type="RequestFilter.filterRequest" name="RequestFilter.filterRequest">
+    <con:script>log.info(request.getEndpoint())</con:script>
+  </con:eventHandlers>
+  <con:sensitiveInformation/>
+  <con:authRepository>
+    <con:oAuth20AuthEntry>
+      <con:name>DynamicsDev</con:name>
+      <con:type>OAuth 2.0</con:type>
+      <con:authorizationURI>https://login.microsoftonline.com/common/oauth2/authorize?resource=https://iloxdev.crm.dynamics.com</con:authorizationURI>
+      <con:accessTokenURI>https://iloxdev.crm.dynamics.com</con:accessTokenURI>
+      <con:redirectURI>https://iloxdeliverydev.crm.dynamics.com/</con:redirectURI>
+      <con:accessToken>eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Imwzc1EtNTBjQ0g0eEJWWkxIVEd3blNSNzY4MCIsImtpZCI6Imwzc1EtNTBjQ0g0eEJWWkxIVEd3blNSNzY4MCJ9.eyJhdWQiOiJodHRwczovL2lsb3hkZXYuY3JtLmR5bmFtaWNzLmNvbSIsImlzcyI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0LzMzNGMyMGE5LTYxNGYtNGVhNC1hMDA3LWIxYzY4MWY1MjA3NS8iLCJpYXQiOjE2MzU1MzM4MzcsIm5iZiI6MTYzNTUzMzgzNywiZXhwIjoxNjM1NTM3NzM3LCJhY3IiOiIxIiwiYWlvIjoiQVVRQXUvOFRBQUFBSThHNDhONGh4alozWHJPQmVtL0NEdEVXemljcWNjdFBmbDRQd3FQQjZCdTZXL0hVZmlHdTNQcnpMWFRHenZ3MGVpZlJNeTV3a3BDSklGUDR2ZndBMUE9PSIsImFtciI6WyJwd2QiLCJ3aWEiLCJtZmEiXSwiYXBwaWQiOiI5ODFmZGNlZC02MTI2LTQ3OTMtOTE3Ny01MmYzOTg0NWRmYzIiLCJhcHBpZGFjciI6IjAiLCJmYW1pbHlfbmFtZSI6IlBlcnVtYWwiLCJnaXZlbl9uYW1lIjoiSGFyaSIsImlwYWRkciI6Ijk4LjE5OC4xNjkuMTc3IiwibmFtZSI6IkhhcmkgUGVydW1hbCIsIm9pZCI6IjU2MTU5ZGRjLWZjNjktNGU5Mi1hNjVkLThiOTk1Zjk5NGNlYSIsIm9ucHJlbV9zaWQiOiJTLTEtNS0yMS0xNzY2NzMzMjcwLTE4MDc2OTE1NjktMTk0NTE0OTc0My0xNDc2NTc2IiwicHVpZCI6IjEwMDMwMDAwOTE1Mzg1MUEiLCJyaCI6IjAuQVVVQXFTQk1NMDlocEU2Z0I3SEdnZlVnZGUzY0g1Z21ZWk5Ia1hkUzg1aEYzOEpGQUdFLiIsInNjcCI6InVzZXJfaW1wZXJzb25hdGlvbiIsInN1YiI6ImN5WDloRW9sN0VoR1BCd0w5eEVnQkw3SnNKM3hzZFdiQjFmR0ZIVlFkNHMiLCJ0aWQiOiIzMzRjMjBhOS02MTRmLTRlYTQtYTAwNy1iMWM2ODFmNTIwNzUiLCJ1bmlxdWVfbmFtZSI6IkhhcmkuUGVydW1hbEBMYWl0cmFtLmNvbSIsInVwbiI6IkhhcmkuUGVydW1hbEBMYWl0cmFtLmNvbSIsInV0aSI6ImY2R3hCUmZBNVVxZTJ0dmFyejNBQVEiLCJ2ZXIiOiIxLjAifQ.DrzyfCQR_6jtt2hTxudFslBs9wyCHGL2xjkZJ4LqUMw-8MHJwJL048Z5foPCytstNLui3zlAIeA7RCHp2a2VbKK1lmSrZUz1VkTTIdbCl6MMJq95JSuKasiRZoDXe-boUJZf4MeEvKKxul9Svr9IvoiDtK7zygRlAypEm4ri4NwuokT1f4126E23M5Zgz-o4GVEPfNRIaql1pt1imp4d2G_gCYf4DmxvwHZq7N30jKWH1P7aOZZ2oEMrx6SoEWKulR8_SWvd7O7RkX3el4J32ZX9fQxu600-uTODANtgzFbAraB1x0dp6EgxfsUOSdboTW_At88xIJqSevUe_nOrBw</con:accessToken>
+      <con:accessTokenPosition>HEADER</con:accessTokenPosition>
+      <con:accessTokenStartingStatus>RETRIEVED_FROM_SERVER</con:accessTokenStartingStatus>
+      <con:accessTokenIssuedTime>1635534137</con:accessTokenIssuedTime>
+      <con:manualAccessTokenExpirationTime/>
+      <con:manualAccessTokenExpirationTimeUnit>SECONDS</con:manualAccessTokenExpirationTimeUnit>
+      <con:clientID>981fdced-6126-4793-9177-52f39845dfc2</con:clientID>
+      <con:clientSecret/>
+      <con:oAuth2Flow>IMPLICIT_GRANT</con:oAuth2Flow>
+      <con:refreshAccessTokenMethod>AUTOMATIC</con:refreshAccessTokenMethod>
+      <con:idToken>eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Imwzc1EtNTBjQ0g0eEJWWkxIVEd3blNSNzY4MCIsImtpZCI6Imwzc1EtNTBjQ0g0eEJWWkxIVEd3blNSNzY4MCJ9.eyJhdWQiOiI5ODFmZGNlZC02MTI2LTQ3OTMtOTE3Ny01MmYzOTg0NWRmYzIiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8zMzRjMjBhOS02MTRmLTRlYTQtYTAwNy1iMWM2ODFmNTIwNzUvIiwiaWF0IjoxNjM1NTMzODg0LCJuYmYiOjE2MzU1MzM4ODQsImV4cCI6MTYzNTUzNzc4NCwiYWlvIjoiQVVRQXUvOFRBQUFBeEYySXV5M0NXbFFJZWptUFhXQ2ErRnNIRkl1cjRQN3poZDFUUlZaTUczMUtiTVZnRlZCbGZvVDVzRkNUZ015MlR2MW95NWRFQXZLRzl3Qnlra0dDTVE9PSIsImFtciI6WyJwd2QiLCJ3aWEiLCJtZmEiXSwiZmFtaWx5X25hbWUiOiJQZXJ1bWFsIiwiZ2l2ZW5fbmFtZSI6IkhhcmkiLCJpcGFkZHIiOiI5OC4xOTguMTY5LjE3NyIsIm5hbWUiOiJIYXJpIFBlcnVtYWwiLCJub25jZSI6IjE2MzU1MzQxNjEyMTFidz09Iiwib2lkIjoiNTYxNTlkZGMtZmM2OS00ZTkyLWE2NWQtOGI5OTVmOTk0Y2VhIiwib25wcmVtX3NpZCI6IlMtMS01LTIxLTE3NjY3MzMyNzAtMTgwNzY5MTU2OS0xOTQ1MTQ5NzQzLTE0NzY1NzYiLCJyaCI6IjAuQVVVQXFTQk1NMDlocEU2Z0I3SEdnZlVnZGUzY0g1Z21ZWk5Ia1hkUzg1aEYzOEpGQUdFLiIsInN1YiI6Ikc3OElLOUFNTTNFS284RGE2RGpmZ3pBdDkwak9Gck51dGZLM1g4N0Vpb1kiLCJ0aWQiOiIzMzRjMjBhOS02MTRmLTRlYTQtYTAwNy1iMWM2ODFmNTIwNzUiLCJ1bmlxdWVfbmFtZSI6IkhhcmkuUGVydW1hbEBMYWl0cmFtLmNvbSIsInVwbiI6IkhhcmkuUGVydW1hbEBMYWl0cmFtLmNvbSIsInV0aSI6Ik5YWlU0WnBpR2ttSVVHeV9MTDIzQVEiLCJ2ZXIiOiIxLjAifQ.oe5JiK-YkF9J-1XWmp5gs94Zz8tApOqAIQvms0oiSxb-Wzv-i8XVP0x-JdIL5Or-JqvkoRIAp8ldrI4LxBygDo39DY11xG4-Udsu_6EEwlB1grTymlJBoG8LVGYsYRpGDcigcyEWq-c-_CO9PLimAP8xB-EsnBwflAAZXB7dhLdH5Fp-RtlXHXCZ_pT91vRhTcUjSbfbFiy4Rj7r0I8qdCOUYEiOiNmNwruOZ6al9ykqJSgrTEnjamvLmT_84-QWQJGyjIE0RelqXryX7NWrh6raffCsIM28k4o2P_8njL0txVi5z-fO88mSTsSihdWj3wYiz-5Aa0cXpe0Pnmp9Nw</con:idToken>
+      <con:idTokenStatus>RETRIEVED_FROM_SERVER</con:idTokenStatus>
+      <con:idTokenStartingStatus>RETRIEVED_FROM_SERVER</con:idTokenStartingStatus>
+      <con:jwtConfiguration/>
+      <con:responseType>id_token</con:responseType>
+    </con:oAuth20AuthEntry>
+  </con:authRepository>
+  <con:tags/>
+</con:soapui-project>

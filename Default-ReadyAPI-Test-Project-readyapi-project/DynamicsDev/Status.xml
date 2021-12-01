@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Status" path="WhoAmI" id="43479d05-b65d-4c6c-8996-f2471619bd1e" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="43479d05-b65d-4c6c-8996-f2471619bd1efileName">Status</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Method 1" id="76a35757-3925-41ba-abe5-84c958526214" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="28131106-fb5e-4d66-977d-f6f11de52563" mediaType="application/json">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>https://iloxdev.crm.dynamics.com/api/data/v9.1</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://login.microsoftonline.com/334c20a9-614f-4ea4-a007-b1c681f52075/oauth2/authorize</con:originalUri>
+      <con:credentials>
+        <con:selectedAuthProfile>DynamicsDev</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

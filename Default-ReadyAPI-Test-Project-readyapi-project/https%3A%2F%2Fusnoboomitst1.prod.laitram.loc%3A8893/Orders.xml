@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Orders" path="/ws/rest/orders" id="6d8caffb-3063-4e64-84ce-42c9723b0611" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="6d8caffb-3063-4e64-84ce-42c9723b0611fileName">Orders</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Orders" id="944b22fc-d694-4d8d-a3f8-c21bb41ce2e4" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>startRow</con:name>
+        <con:value>1</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>1</con:default>
+        <con:path xsi:nil="true"/>
+        <con:description xsi:nil="true"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>endRow</con:name>
+        <con:value>10</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>10</con:default>
+        <con:path xsi:nil="true"/>
+        <con:description xsi:nil="true"/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>accountId</con:name>
+        <con:value>5196</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>5196</con:default>
+        <con:path xsi:nil="true"/>
+        <con:description xsi:nil="true"/>
+      </con:parameter>
+    </con:parameters>
+    <con:request name="Request 1" id="d3be8d4f-3cbc-46a4-85b9-7d20958caae6" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://usnoboomitst1.prod.laitram.loc:8893</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:parameters>
+        <con:entry key="accountId" value="5196"/>
+        <con:entry key="startRow" value="1"/>
+        <con:entry key="endRow" value="10"/>
+      </con:parameters>
+      <con:parameterOrder>
+        <con:entry>startRow</con:entry>
+        <con:entry>endRow</con:entry>
+        <con:entry>accountId</con:entry>
+      </con:parameterOrder>
+    </con:request>
+  </con:method>
+</con:resource>

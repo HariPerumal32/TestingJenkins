@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="afd39a5a-cc35-4a61-b00d-b3a295519c8a" name="DynamicsDev" type="rest_ex" wadlVersion="https://swagger.io/openapiv3/specification" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="afd39a5a-cc35-4a61-b00d-b3a295519c8afileName">DynamicsDev</con:setting>
+  </con:settings>
+  <con:definitionCache type="TEXT" rootPart="https://iloxdev.crm.dynamics.com/v9.1/products.json">
+    <con:part>
+      <con:url>https://iloxdev.crm.dynamics.com/v9.1/products.json</con:url>
+      <con:content>{"openapi":"3.0.1","info":{"title":"https://iloxdev.crm.dynamics.com/v9.1/products","version":"1.0.0"},"servers":[{"url":"/"}],"paths":{"/products":{"post":{"requestBody":{"content":{"application/json":{"example":"{\n    \"name\": \"HP_Product_Test10\",\n    \"productnumber\": \"HP_Product_PID_Test10\",\n    \"productstructure\": \"1\",\n    \"defaultuomscheduleid@odata.bind\": \"/uoms(ec5df937-6331-4d7c-abde-1da2be1c44d0)\",\n    \"defaultuomid@odata.bind\": \"/uoms(29ec54b9-8556-4889-8351-5d2d7377bb1b)\",\n    \"quantitydecimal\": \"0\",\n    \"parentproductid@odata.bind\": \"/products(a7772d92-8f20-ec11-b6e6-00224822efe5)\"\n}"}}},"responses":{"default":{"description":"Default response"}}}},"/WhoAmI":{"get":{"responses":{"default":{"description":"Default response"}}}}}}</con:content>
+      <con:type>https://swagger.io/openapiv3/specification</con:type>
+    </con:part>
+  </con:definitionCache>
+  <con:endpoints>
+    <con:endpoint>https://iloxdev.crm.dynamics.com</con:endpoint>
+  </con:endpoints>
+</con:interface>

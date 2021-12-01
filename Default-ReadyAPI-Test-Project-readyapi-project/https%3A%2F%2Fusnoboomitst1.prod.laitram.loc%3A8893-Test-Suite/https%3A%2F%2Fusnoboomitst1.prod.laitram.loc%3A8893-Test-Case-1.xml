@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="ee976324-ede3-4f02-ad46-d10593f9c6b3" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="https://usnoboomitst1.prod.laitram.loc:8893 Test Case 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="ee976324-ede3-4f02-ad46-d10593f9c6b3fileName">https%3A%2F%2Fusnoboomitst1.prod.laitram.loc%3A8893-Test-Case-1</con:setting>
+  </con:settings>
+  <con:testStep type="restrequest" name="Request 1" id="18249dcb-cbc7-4a3f-94c6-77c95472da11">
+    <con:settings/>
+    <con:config service="https://usnoboomitst1.prod.laitram.loc:8893" resourcePath="/ws/rest/orders" methodName="Orders" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Request 1" id="d3be8d4f-3cbc-46a4-85b9-7d20958caae6" mediaType="application/json" sslKeystore="3545cbf5-78a3-4383-b020-004828ebdb87">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://usnoboomitst1.prod.laitram.loc:8893</con:endpoint>
+        <con:request/>
+        <con:assertion type="Valid HTTP Status Codes" id="1ad5a3ea-74d9-4d86-a203-3abfc7e59ac1" name="Valid HTTP Status Codes">
+          <con:settings/>
+          <con:configuration>
+            <codes>200</codes>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="accountId" value="5196"/>
+          <con:entry key="startRow" value="1"/>
+          <con:entry key="endRow" value="10"/>
+        </con:parameters>
+        <con:parameterOrder>
+          <con:entry>startRow</con:entry>
+          <con:entry>endRow</con:entry>
+          <con:entry>accountId</con:entry>
+        </con:parameterOrder>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>

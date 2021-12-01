@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="" path="" id="1242fd34-7bd6-42c3-b9a4-46fd37ba992a" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="1242fd34-7bd6-42c3-b9a4-46fd37ba992afileName"/>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Method 1" id="e984ed4b-dd3e-4e18-9e05-050fe2372fb7" method="PATCH">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="8b5da316-ae37-4e06-8332-3795f8df310a" mediaType="application/json" postQueryString="false">
+      <con:settings/>
+      <con:request/>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

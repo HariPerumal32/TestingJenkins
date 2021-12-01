@@ -1,0 +1,10 @@
+ServiceSoapBinding
+http%3A%2F%2Flocalhost%3A8084
+testptch
+DynamicsDev
+PackingSlips
+https%3A%2F%2Fusnoboomitst1.prod.laitram.loc%3A8893
+TestSuite
+https%3A%2F%2Fusnoboomitst1.prod.laitram.loc%3A8893-Test-Suite
+ServiceSoapBinding-MockService
+RESTMockService

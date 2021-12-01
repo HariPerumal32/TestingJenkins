@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="95cda8d9-89ba-4398-9f93-1368f774c422" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://usnoboomitst1.prod.laitram.loc:8893" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="95cda8d9-89ba-4398-9f93-1368f774c422fileName">https%3A%2F%2Fusnoboomitst1.prod.laitram.loc%3A8893</con:setting>
+  </con:settings>
+  <con:definitionCache/>
+  <con:endpoints>
+    <con:endpoint>https://usnoboomitst1.prod.laitram.loc:8893</con:endpoint>
+  </con:endpoints>
+</con:interface>
